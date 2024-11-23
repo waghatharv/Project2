@@ -20,7 +20,7 @@ app.use("/api/v1", router);
 dbConnect();
 
 app.get("/",(req,res)=>{
-res.send("hello");
+res.send("welcome");
 }
 
 app.listen(PORT, () => {
